@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Test Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>⌨️ Typing Test Pro</h1>
+
+  <div class="controls">
+    <select id="level">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <select id="timeSelect">
+      <option value="60">1 Min</option>
+      <option value="180">3 Min</option>
+      <option value="300">5 Min</option>
+      <option value="600">10 Min</option>
+      <option value="1800">30 Min</option>
+    </select>
+  </div>
+
+  <p id="text"></p>
+
+  <textarea id="input" placeholder="Start typing..."></textarea>
+
+  <div class="info">
+    <div>⏱ <span id="time">0</span>s</div>
+    <div>⚡ WPM: <span id="wpm">0</span></div>
+    <div>🎯 Accuracy: <span id="accuracy">0</span>%</div>
+  </div>
+
+  <button onclick="startGame()">Start Test</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
