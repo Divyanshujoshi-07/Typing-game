@@ -25,4 +25,4 @@ Typing Test Pro is a modern and interactive web application designed to help use
 
 ---
 
-## 📂 Project Structure
+
